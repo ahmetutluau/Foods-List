@@ -13,6 +13,8 @@
 		045E92372889F86E00D6A742 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045E92352889F86E00D6A742 /* Main.storyboard */; };
 		045E92392889F87000D6A742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045E92382889F87000D6A742 /* Assets.xcassets */; };
 		045E923C2889F87000D6A742 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045E923A2889F87000D6A742 /* LaunchScreen.storyboard */; };
+		048B967E2889FAD600DE6D79 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B967D2889FAD600DE6D79 /* TableViewCell.swift */; };
+		048B96802889FDF900DE6D79 /* Foods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048B967F2889FDF900DE6D79 /* Foods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		045E92382889F87000D6A742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		045E923B2889F87000D6A742 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045E923D2889F87000D6A742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048B967D2889FAD600DE6D79 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		048B967F2889FDF900DE6D79 /* Foods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				045E922F2889F86E00D6A742 /* AppDelegate.swift */,
 				045E92312889F86E00D6A742 /* SceneDelegate.swift */,
 				045E92332889F86E00D6A742 /* ViewController.swift */,
+				048B967D2889FAD600DE6D79 /* TableViewCell.swift */,
 				045E92352889F86E00D6A742 /* Main.storyboard */,
 				045E92382889F87000D6A742 /* Assets.xcassets */,
 				045E923A2889F87000D6A742 /* LaunchScreen.storyboard */,
 				045E923D2889F87000D6A742 /* Info.plist */,
+				048B967F2889FDF900DE6D79 /* Foods.swift */,
 			);
 			path = "Food List";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048B96802889FDF900DE6D79 /* Foods.swift in Sources */,
 				045E92342889F86E00D6A742 /* ViewController.swift in Sources */,
+				048B967E2889FAD600DE6D79 /* TableViewCell.swift in Sources */,
 				045E92302889F86E00D6A742 /* AppDelegate.swift in Sources */,
 				045E92322889F86E00D6A742 /* SceneDelegate.swift in Sources */,
 			);
